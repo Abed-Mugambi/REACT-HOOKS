@@ -2,6 +2,34 @@
   text-align: center;
 }
 
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: lightblue;
+  color: blue;
+}
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +64,54 @@
     transform: rotate(360deg);
   }
 }
+
+.homeh1{
+color: blueviolet;
+}
+
+.abouth1{
+  color: mediumvioletred;
+}
+
+.testh1{
+  color: firebrick;
+}
+
+.myimage{
+  height: 120px;
+  margin-top: 30px;
+}
+
+
+.productone{
+  height:50px;
+ 
+  margin-top: 30px;
+}
+ 
+.app{
+  min-height: 50vh;
+  width: 100%;
+  
+  background-color: rgb(75, 75, 196);
+ 
+  display: flex;
+  justify-content: space-around;
+}
+
+.tweet{
+  height: 300px;
+  width: 300px;
+  background: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+
+.btn{
+  height: 30px;
+} */
